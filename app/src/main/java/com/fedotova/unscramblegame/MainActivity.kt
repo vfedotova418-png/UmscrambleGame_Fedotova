@@ -31,3 +31,9 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
+@Preview
+@Composable
+fun UnscrambleGamePreview() {
+ GameScreen()
+}
